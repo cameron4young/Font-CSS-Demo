@@ -1,0 +1,25 @@
+
+*{
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.container {
+  display: block;
+  float:left;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 20px;
+  width: 15%;
+  height: 90%;
+  border: 2px solid black
+}
+
+
+.demo-container{
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75%;
+  height: 90%;
+  border: 2px solid black;
+}

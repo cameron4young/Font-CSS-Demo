@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://get.mavo.io/mavo.css" />
+		<script src="https://get.mavo.io/mavo.js"></script>
+		<title>Font Shorthand CSS Demo</title>
+	</head>
+	<body>
+		<header><h1>Font Shorthand CSS Demo</h1></header>
+		<section mv-app="text" mv-storage="local">
+			<p style="background-color:gray; font-weight: bold; font-size: 30px">CSS: <br> font: [style] [variant] [weight] [size]px/[height] [family]</p>
+			<article class = "container">
+				<h2>font-style</h2>
+
+				<form>
+						<input type="radio" id="style1" name="style" value="normal" property="style" checked>
+						<label for="style1">normal</label><br>
+						<input type="radio" id="style2" name="style" value="italic">
+						<label for="style2">italic</label><br>
+						<input type="radio" id="style3" name="style" value="oblique">
+						<label for="style3">oblique</label><br>
+				</form>
+				<h2>font-variant</h2>
+				<form>
+					<input type="radio" id="variant1" name="variant" value=" " property="variant" checked>
+					<label for="variant1">none</label><br>
+					<input type="radio" id="variant2" name="variant" value="normal">
+					<label for="variant2">normal</label><br>
+					<input type="radio" id="variant3" name="variant" value="small-caps">
+					<label for="variant3">small-caps</label><br>
+				</form>
+				<h2>font-weight</h2>
+				<form>
+					<input type="radio" id="weight1" name="weight" value= " " property="weight" checked>
+					<label for="weight1">none</label><br>
+					<input type="radio" id="weight2" name="weight" value="normal">
+					<label for="weight2">normal</label><br>
+					<input type="radio" id="weight3" name="weight" value="bold">
+					<label for="weight3">bold</label><br>
+				</form>
+				<h2>font-size</h2>
+				<form>
+					<input type="range" id="size" name="size" property="size" min="10" max="300"> [size] px
+				</form>
+				<h2>line-height</h2>
+					<input type="range" id="height" name="height" property="height" min="1" max="4"> [height]
+				<h2>font-family</h2>
+				<form>
+					<input type="radio" id="family1" name="family" value="Arial" property="family" checked>
+					<label for="family1">Arial</label><br>
+					<input type="radio" id="family2" name="family" value="courier">
+					<label for="family2">courier</label><br>
+					<input type="radio" id="family3" name="family" value="sans-serif">
+					<label for="family3">sans-serif</label><br>
+					<input type="radio" id="family4" name="family" value="fantasy">
+					<label for="family4">fantasy</label><br>
+					<input type="radio" id="family5" name="family" value="cursive">
+					<label for="family5">cursive</label><br>
+				</form>
+			</article>
+			
+			<div property="text" class = "demo-container" style="font: [style] [variant] [weight] [size]px/[height] [family]">
+				Hello
+			</div>
+		</section>
+
+	</body>
+</html>
